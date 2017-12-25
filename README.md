@@ -8,6 +8,8 @@ License: MIT
 
 ## Usage ##
 
+<a href="https://imgur.com/8l69u7w"><img src="https://i.imgur.com/8l69u7w.jpg" title="source: imgur.com" /></a>
+
 The code essentially revolves around solving the quais-periodically driven Duffing oscillator (shown above) using Runge-Kutta Fourth 
 numerical integration. Many of the functions are dedicated to the generation and analysis of Poincare sections made from the "snapshots"
 of the flow. Analysis involves multiple methods of finding the fractal dimension of the attractors (Poincare sections) generated using 
