@@ -1,10 +1,22 @@
-# UROP
+# UROP #
 
 MATLAB code developed to conduct the Undergreaduate research project in Computational Dynamical systems at Imperial College London,
 under the supervision of Dr. P. Ramsden. (Summer 2017). Project attempted to, and successfully found evidence for the existence of non-
 chaotic, strange attractors in the quasi-periodically driven Duffing oscillator. 
 
-## Usage ##
+## Summary of abilities ##
+- Solves Quasi-periodically driven Duffing oscillator (can adapt to almost any similar ODE really)
+- Find frequency spectra of solutions to the oscillator
+- Determines if a system with a certain set of parameters is chaotic or not via Lyapunov exponents
+- Creates (estimates of) attractors by taking Poincare sections in 2 and 3 dimensions (2 spacial and 1 temporal)
+- Calculates fractal dimensions of such attractors with 3 distinct and useful methods.
+
+## Requirements ##
+
+- Matlab 2017a or newer (older versions may work, check their documentation on functions such as "unique", and especially on logical
+arrays)
+
+## Description and Usage ##
 <a href="https://imgur.com/8l69u7w"><img src="https://i.imgur.com/8l69u7w.jpg" title="source: imgur.com" /></a>
 
 The code essentially revolves around solving the Quasi-periodically driven Duffing oscillator (shown above) using Runge-Kutta Fourth
