@@ -1,3 +1,5 @@
+<a href="https://imgur.com/8l69u7w"><img src="https://i.imgur.com/8l69u7w.jpg" title="source: imgur.com" /></a>
+
 # UROP #
 
 MATLAB code developed to conduct the Undergreaduate research project in Computational Dynamical systems at Imperial College London,
@@ -11,13 +13,18 @@ chaotic, strange attractors in the quasi-periodically driven Duffing oscillator.
 - Creates (estimates of) attractors by taking Poincare sections in 2 and 3 dimensions (2 spacial and 1 temporal)
 - Calculates fractal dimensions of such attractors with 3 distinct and useful methods.
 
-## Requirements ##
+## Requirements and Installation ##
 
 - Matlab 2017a or newer (older versions may work, check their documentation on functions such as "unique", and especially on logical
 arrays)
+  - Simply install Matlab via the Mathworks website: <a href="https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab">website</a>
+  - Fork and clone all the .m files, and add them to your MATLAB working directory, or even better, into your Matlab <a href="https://uk.mathworks.com/products/matlab-drive.html?s_tid=MLD_MLDOSI">drive</a>
+  - have fun!
+- Alternatively, you can use <a href="https://uk.mathworks.com/products/matlab-online.html">Matlab online</a> through an internet browser, not ideal but usable.
 
-## Description and Usage ##
-<a href="https://imgur.com/8l69u7w"><img src="https://i.imgur.com/8l69u7w.jpg" title="source: imgur.com" /></a>
+(NOTE: Matlab is not open source, and so to obtain the software you'll need a Mathworks license. For students this is free via your institution, otherwise you can always adapt the code slightly and use it in GNU Octave (see its documentation for more details)
+
+## Usage ##
 
 The code essentially revolves around solving the Quasi-periodically driven Duffing oscillator (shown above) using Runge-Kutta Fourth
 order numerical integration. Many of the functions are dedicated to the generation and analysis of Poincare sections made from the
@@ -69,9 +76,13 @@ However, the Box counting dimension will likely be very close to but greater tha
 usually. This is explained in the final report, so dont worry too much but as long as your results look something like the above, you've
 quite likely found a non-chaotic strange attractor! 
 
+## Contributing ##
+
 If you'd like to take part in the search for SNA's (strange non-chaotic attractors, not a species of alien sadly) then feel free to use
 all my code and trawl through infinite parameter space to your hearts content. If you do come across strong evidence for one, then
 please let me know about it! (seriously, email me at hitesh.kumar15@imperial.ac.uk)
+
+Feel free to fork and make pull requests as you wish, and perhaps even create a simple database to store interesting points in parameter space.
 
 ## Credits ##
 I worked on this project under the supervision of Dr. P. Ramsden, who supported me through many difficult parts of the project and
