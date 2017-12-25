@@ -55,8 +55,18 @@ and have the following pattern of fractal dimensions:
 
 However, the Box counting dimension will likely be very close to but greater than 1 and the correlation dimension will be the same
 usually. This is explained in the final report, so dont worry too much but as long as your results look something like the above, you've
-quite likely found a non-chaotic strange attractor! (If you do please let me know...) (seriously, email me at hitesh.kumar15@imperial.ac.uk).
+quite likely found a non-chaotic strange attractor! 
 
+If you'd like to take part in the search for SNA's (strange non-chaotic attractors, not a species of alien sadly) then feel free to use
+all my code and trawl through infinite parameter space to your hearts content. If you do come across strong evidence for one, then
+please let me know about it!(If you do please let me know...) (seriously, email me at hitesh.kumar15@imperial.ac.uk).
 
+## Credits ##
+I worked on this project under the supervision of Dr. P. Ramsden, who supported me through many difficult parts of the project and
+taught me a lot about dynamical systems, fourier analysis and research in general. Credits for that (and especially for the Box_count
+function) go to him.
+
+Additionally, I would like to thank the EPSRC for trusting me and this project and selecting me as one of the few to get their VERY
+generous funding. 
 
 
