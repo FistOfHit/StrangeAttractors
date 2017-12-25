@@ -4,8 +4,6 @@ MATLAB code developed to conduct the Undergreaduate research project in Computat
 under the supervision of Dr. P. Ramsden. (Summer 2017). Project attempted to, and successfully found evidence for the existence of non-
 chaotic, strange attractors in the quasi-periodically driven Duffing oscillator. 
 
-License: MIT
-
 ## Usage ##
 <a href="https://imgur.com/8l69u7w"><img src="https://i.imgur.com/8l69u7w.jpg" title="source: imgur.com" /></a>
 
@@ -70,3 +68,7 @@ function) go to him.
 
 Additionally, I would like to thank the EPSRC for trusting me and this project and selecting me as one of the few to get their VERY
 generous funding. 
+
+## License ##
+
+MIT license, feel free to use and develop for your own investigations!
