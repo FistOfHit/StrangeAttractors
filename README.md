@@ -17,10 +17,10 @@ chaotic, strange attractors in the quasi-periodically driven Duffing oscillator.
 
 - Matlab 2017a or newer (older versions may work, check their documentation on functions such as "unique", and especially on logical
 arrays)
-  - Simply install Matlab via the Mathworks website: <a href="https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab">website</a>
-  - Fork and clone all the .m files, and add them to your MATLAB working directory, or even better, into your Matlab <a href="https://uk.mathworks.com/products/matlab-drive.html?s_tid=MLD_MLDOSI">drive</a>
-  - have fun!
+  - Simply install Matlab via the Mathworks <a href="https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab">website</a>
+  - Fork and clone all the .m files into your MATLAB working directory, or even better, into your Matlab <a href="https://uk.mathworks.com/products/matlab-drive.html?s_tid=MLD_MLDOSI">drive</a>
 - Alternatively, you can use <a href="https://uk.mathworks.com/products/matlab-online.html">Matlab online</a> through an internet browser, not ideal but usable.
+  - Using Matlab drive is essential in this case
 
 (NOTE: Matlab is not open source, and so to obtain the software you'll need a Mathworks license. For students this is free via your institution, otherwise you can always adapt the code slightly and use it in GNU Octave (see its documentation for more details)
 
