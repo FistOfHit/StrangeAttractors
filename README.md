@@ -32,6 +32,31 @@ If you want to create your very own beautiful attractor sets, then use Create_at
 This was created with the same parameters, with the last changed to number of driving cycles (time in multiples of *2pi*) for the
 driving force: -0.2, 1, -1.63, 0.3, 0.3, (sqrt(5) - 1) / 2, 10^5.
 
-Additionally, you can take Fourier transforms to get frequency spectrums, with similar parameter inputs
+Additionally, you can take Fourier transforms to get frequency spectrums, with similar parameter inputs:
+
+<a href="https://imgur.com/okoHHyQ"><img src="https://i.imgur.com/okoHHyQ.jpg" title="source: imgur.com" /></a>
+
+(Inputs used: -0.2, 1, -1.63, 0.3, 0.3, (sqrt(5) - 1) / 2, [1, 0])
+
+The whole codebase has been designed for you to use almost exactly the same inputs with minimal variation for all the functions to
+perform analysis. This dosent just make it easier to remeber inputs layouts (Trust me, you memorise entire sets of parameters that are
+interesting very quickly) but also makes putting the functions into scripts quite a lot easier.
+
+After you've explored the dynamical system a bit and have a feel for whats going on as you change parameters, start the analysis by
+finding the Lyapunov exponents and fractal dimensions of the attractors you create. This will allow you too to find non-chaotic, strange
+attractors like I and my supervisor did! The methods are explained in much more detail in both the function descriptions and the final
+report in the repo above. (which I strongly recommend you have a quick read through atleast) However, to summarise, you can find the
+Lyapunov exponent which is a measure of rate of divergence of the flows which tells you whether the system is chaotic or not, and the
+box counting, correlation and Lyapunov dimensions of the attractors which can tell you whether the attractor is geometrically strange or
+not. As per the title, your aim is to find sets of parameters which have a negative Lyapunov exponent in the x (position) dimension 
+and have the following pattern of fractal dimensions:
+
+<a href="https://imgur.com/dX2Gb2f"><img src="https://i.imgur.com/dX2Gb2f.jpg" title="source: imgur.com" /></a>
+
+However, the Box counting dimension will likely be very close to but greater than 1 and the correlation dimension will be the same
+usually. This is explained in the final report, so dont worry too much but as long as your results look something like the above, you've
+quite likely found a non-chaotic strange attractor! (If you do please let me know...) (seriously, email me at hitesh.kumar15@imperial.ac.uk).
+
+
 
 
