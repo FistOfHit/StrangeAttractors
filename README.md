@@ -71,7 +71,7 @@ quite likely found a non-chaotic strange attractor!
 
 If you'd like to take part in the search for SNA's (strange non-chaotic attractors, not a species of alien sadly) then feel free to use
 all my code and trawl through infinite parameter space to your hearts content. If you do come across strong evidence for one, then
-please let me know about it!(If you do please let me know...) (seriously, email me at hitesh.kumar15@imperial.ac.uk).
+please let me know about it! (seriously, email me at hitesh.kumar15@imperial.ac.uk)
 
 ## Credits ##
 I worked on this project under the supervision of Dr. P. Ramsden, who supported me through many difficult parts of the project and
