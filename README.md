@@ -1,6 +1,6 @@
 <a href="https://imgur.com/8l69u7w"><img src="https://i.imgur.com/8l69u7w.jpg" title="source: imgur.com" /></a>
 
-# UROP #
+# StrangeAttractors #
 
 MATLAB code developed to conduct the Undergreaduate research project in Computational Dynamical systems at Imperial College London,
 under the supervision of Dr. P. Ramsden. (Summer 2017). Project attempted to, and successfully found evidence for the existence of non-
